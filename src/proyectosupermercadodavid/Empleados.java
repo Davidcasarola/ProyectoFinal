@@ -2,12 +2,13 @@
 package proyectosupermercadodavid;
 
 public class Empleados {
-    private String nombreCompleto, direccion, identifacion;
+    private String nombreCompleto, direccion, identifacion, gafete;
 
     public Empleados() {
         this.nombreCompleto = "";
         this.direccion = "";
         this.identifacion = "";
+        this.gafete = "";
     }
 
     public String getNombreCompleto() {
@@ -33,6 +34,13 @@ public class Empleados {
     public void setIdentifacion(String identifacion) {
         this.identifacion = identifacion;
     }
-    
+
+    public String getGafete() {
+        return gafete;
+    }
+
+    public void setGafete(String gafete) {
+        this.gafete = gafete;
+    }
     
 }

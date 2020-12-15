@@ -3,16 +3,9 @@ package proyectosupermercadodavid;
 
 public class InventarioComidas {
     private String tipoComida, nombreComida;
-    private int cantidad, precio, total;
+    private int cantidad, precio;
 
-    public int getTotal() {
-        return total;
-    }
-
-    public void setTotal(int total) {
-        this.total = total;
-    }
-
+   
     public InventarioComidas() {
         this.tipoComida = "";
         this.nombreComida = "";

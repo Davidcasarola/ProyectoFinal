@@ -1,17 +1,9 @@
-
 package proyectosupermercadodavid;
 
 public class InventarioBebidas {
+
     private String tipoBebida, nombreBebida;
-    private int cantidad, precio, total;
-
-    public int getTotal() {
-        return total;
-    }
-
-    public void setTotal(int total) {
-        this.total = total;
-    }
+    private int cantidad, precio;
 
     public InventarioBebidas() {
         this.tipoBebida = "";
@@ -51,6 +43,5 @@ public class InventarioBebidas {
     public void setPrecio(int precio) {
         this.precio = precio;
     }
-    
-    
+
 }

@@ -1,15 +1,17 @@
 package proyectosupermercadodavid;
 
 public class InventarioCarnes {
+
     private String corteCarne, tipoCarne;
-    private int precioKilo, cantidad, total;
+    private int precioKilo, cantidad;
+    
 
     public InventarioCarnes() {
         this.corteCarne = "";
         this.tipoCarne = "";
         this.precioKilo = 0;
         this.cantidad = 0;
-        this.total = 0;
+
     }
 
     public String getCorteCarne() {
@@ -44,12 +46,4 @@ public class InventarioCarnes {
         this.cantidad = cantidad;
     }
 
-    public int getTotal() {
-        return total;
-    }
-
-    public void setTotal(int total) {
-        this.total = total;
-    }
-    
 }
